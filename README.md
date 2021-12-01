@@ -9,3 +9,14 @@
 - Data Analysis Using R - Bank Marketing (youtube)
 - Bank Marketing UCI Dataset (Kaggle)
 - Decision Trees explained (youtube)
+
+
+- Uncertainty and Risk Assessment (theory)
+- Random Forest (R tutorial) 
+- Work on Assignment task 1 (task, evaluation) 
+- DT solution (an example for guidance)
+- Data Management*(types of data)
+- Descriptive Statistics*
+- Tasks: (1) run the project scripts on Bank marketing data, describe and explain the script outcomes, and (2) email a draft report for Early Feedback to vitaly.schetinin@beds.ac.uk 
+- Tree Based Modeling from Scratch
+- Random Forest R Scripting (blog)
