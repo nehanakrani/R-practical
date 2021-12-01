@@ -17,6 +17,6 @@
 - DT solution (an example for guidance)
 - Data Management*(types of data)
 - Descriptive Statistics*
-- Tasks: (1) run the project scripts on Bank marketing data, describe and explain the script outcomes, and (2) email a draft report for Early Feedback to vitaly.schetinin@beds.ac.uk 
+- Tasks: (1) run the project scripts on Bank marketing data, describe and explain the script outcomes
 - Tree Based Modeling from Scratch
 - Random Forest R Scripting (blog)
