@@ -40,10 +40,17 @@ dim(predmatrix) # dimentions of the Prediction Matrix
 # [1] 132 100
 
 
-Test.error <- with(Boston[-train,], apply( (predmatrix-medv)^2,2, mean))
-head(Test.error) # contains the Mean squared test error for each of the 100 trees averaged
+test.error <- with(Boston[-train,], apply( (predmatrix-medv)^2,2, mean))
+head(test.error) # contains the Mean squared test error for each of the 100 trees averaged
 
 
 # head(Test.error)
 #      100      200      300      400      500      600
 # 25.86012 18.01882 15.75270 14.78562 13.86204 13.43472
+
+
+# Plotting the test error vs number of trees
+plot(n.trees , test.error, pch=19,col="blue", xlab="Number of Trees", ylab="Test Error", main="Performance of Boosting on Test Set")
+# Adding the RandomForests Minimum Error line trained on same data and similar parameters
+abline(h = min(test.error),col="red") #test.err is the test error of a Random Forest fitted on the same data
+legend("topright",c("Minimum Test error Line for Random Forests"),col="red",lty=1,lwd=1)
